@@ -1,4 +1,4 @@
-# 🏥 Lectura con Monitor ECG 
+# Lectura con Monitor ECG 
 
 **CardioView Pro** es un sistema avanzado de monitoreo electrocardiográfico (ECG) en tiempo real, desarrollado sobre la plataforma STM32 y con una interfaz de visualización médica profesional en Python.
 
@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Real--Time%20Data-E74C3C?style=flat-square&logo=apachespark&logoColor=white" alt="Real-Time" />
 </div>
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto implementa un monitor cardíaco completo que adquiere señales biopotenciales utilizando el sensor AD8232 y un microcontrolador STM32F401. El firmware realiza un pre-procesamiento digital de la señal (DSP) para eliminar ruido, mientras que la aplicación de escritorio proporciona una visualización nítida, cálculo de frecuencia cardíaca (BPM) y análisis en tiempo real.
 
@@ -24,7 +24,7 @@ Este proyecto implementa un monitor cardíaco completo que adquiere señales bio
   <img src="assets/demo_ecg.gif" alt="Demo CardioView Pro" width="800"/>
 </div>
 
-### ✨ Características Principales
+### Características Principales
 
 *   **Adquisición de Precisión:** Muestreo a 250Hz con ADC de 12-bits.
 *   **Procesamiento Digital de Señales (DSP) Embebido:**
@@ -35,7 +35,7 @@ Este proyecto implementa un monitor cardíaco completo que adquiere señales bio
 *   **Detección de Anomalías:** Indicadores visuales para desconexión de electrodos (Leads Off).
 *   **Métricas en Vivo:** Cálculo instantáneo de BPM, promedios y calidad de señal.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Hardware
 *   **MCU:** STM32F401RETx (Nucleo-64)
@@ -51,7 +51,7 @@ Este proyecto implementa un monitor cardíaco completo que adquiere señales bio
 *   **SciPy / NumPy:** Procesamiento secundario de señales.
 *   **Pyserial:** Comunicación UART.
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### 1. Firmware (STM32)
 1.  Abrir el proyecto en **STM32CubeIDE**.
@@ -74,7 +74,7 @@ Este proyecto implementa un monitor cardíaco completo que adquiere señales bio
     ```
 4.  Selecciona el puerto COM de tu STM32 y presiona **INICIAR**.
 
-## 👥 Autores
+## Autores
 
 *   **Victor**
 *   **Joel**
